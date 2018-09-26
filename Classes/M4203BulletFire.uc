@@ -1,0 +1,43 @@
+class M4203BulletFire extends BullpupBurstFire;
+
+defaultproperties
+{
+     bWaitForRelease=True
+     BurstLength=3
+     BurstRate=0.075000
+     FireRate=0.150000//0.096000
+     FireAimedAnim="Fire_Iron"
+     RecoilRate=0.065000
+     maxVerticalRecoilAngle=250
+     maxHorizontalRecoilAngle=100
+     ShellEjectClass=Class'ROEffects.KFShellEjectM4Rifle'
+     ShellEjectBoneName="Shell_Eject"
+     bAccuracyBonusForSemiAuto=True
+     FireSound=Sound'KF_M4RifleSnd.M4Rifle_Fire_Single_M'
+     FireSoundRef="KF_M4RifleSnd.M4Rifle_Fire_Single_M"
+     StereoFireSound=Sound'KF_M4RifleSnd.M4Rifle_Fire_Single_S'
+     StereoFireSoundRef="KF_M4RifleSnd.M4Rifle_Fire_Single_S"
+     NoAmmoSoundRef="KF_AK47Snd.AK47_DryFire"
+     DamageType=Class'SnMod.DamTypeM4AssaultRifle'
+     DamageMin=25
+     DamageMax=30//35
+     Momentum=8500.000000
+     bPawnRapidFireAnim=True
+     TransientSoundVolume=1.800000
+     FireLoopAnim="Fire"
+     TweenTime=0.025000
+     FireForce="AssaultRifleFire"
+     AmmoClass=Class'SnMod.M4203Ammo'
+     AmmoPerFire=1
+     ShakeRotMag=(X=50.000000,Y=50.000000,Z=350.000000)
+     ShakeRotRate=(X=5000.000000,Y=5000.000000,Z=5000.000000)
+     ShakeRotTime=0.750000
+     ShakeOffsetMag=(X=6.000000,Y=3.000000,Z=7.500000)
+     ShakeOffsetRate=(X=1000.000000,Y=1000.000000,Z=1000.000000)
+     ShakeOffsetTime=1.250000
+     BotRefireRate=0.990000
+     FlashEmitterClass=Class'ROEffects.MuzzleFlash1stSTG'
+     aimerror=42.000000
+     Spread=0.010000
+     SpreadStyle=SS_Random
+}
