@@ -3,7 +3,7 @@ class Bullpup extends KFMod.Bullpup
 
 defaultproperties
 {
-    MagCapacity=40
+    MagCapacity=30//40
 	Weight=5.000000//6.000000
     FireModeClass(0)=Class'SnMod.BullpupFire'
     PickupClass=Class'SnMod.BullpupPickup'

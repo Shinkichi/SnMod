@@ -5,7 +5,7 @@ defaultproperties
 	Weight=7.000000//6.000000
 	cost=600//1000
 	AmmoCost=10
-    BuyClipSize=30
+    BuyClipSize=40//30
 	ItemName="M4 SN"
 	ItemShortName="M4 SN"
 	InventoryType=Class'SnMod.M4AssaultRifle'

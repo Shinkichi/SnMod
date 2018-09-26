@@ -28,6 +28,23 @@ function BreakGrapple()
 	}
 }
 
+// Scales the health this Zed has by the difficulty level
+function float DifficultyHealthModifer()
+{
+	local float AdjustedModifier;
+
+	if ( Level.Game.GameDifficulty >= 2.0 )
+	{
+		AdjustedModifier = 1.0;
+	}
+	else //if ( GameDifficulty == 1.0 ) // Beginner
+	{
+		AdjustedModifier = 0.5;
+	}
+
+	return AdjustedModifier;
+}
+
 // Scales the head health this Zed has by the difficulty level
 function float DifficultyHeadHealthModifer()
 {
