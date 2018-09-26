@@ -2,7 +2,7 @@ class SPAutoShotgun extends KFMod.SPAutoShotgun;
 
 defaultproperties
 {
-    Weight=7.000000//10.000000
+    Weight=8.000000//10.000000
     FireModeClass(0)=Class'SnMod.SPShotgunFire'
     FireModeClass(1)=Class'SnMod.SPShotgunAltFire'
     PickupClass=Class'SnMod.SPShotgunPickup'

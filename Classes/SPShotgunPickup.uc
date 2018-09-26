@@ -2,7 +2,7 @@ class SPShotgunPickup extends KFMod.SPShotgunPickup;
 
 defaultproperties
 {
-    Weight=7.000000//10.000000
+    Weight=8.000000//10.000000
 	cost=1200//2000
 	AmmoCost=30
 	BuyClipSize=10

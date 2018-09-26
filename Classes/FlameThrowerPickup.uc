@@ -2,7 +2,7 @@ class FlameThrowerPickup extends KFMod.FlameThrowerPickup;
 
 defaultproperties
 {
-    Weight=7.000000//10.000000
+    Weight=8.000000//10.000000
 	cost=1200//750//400
 	AmmoCost=30
 	BuyClipSize=100//50

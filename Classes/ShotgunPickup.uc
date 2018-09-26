@@ -2,7 +2,7 @@ class ShotgunPickup extends KFMod.ShotgunPickup;
 
 defaultproperties
 {
-	Weight=5.000000//8.000000
+	Weight=6.000000//8.000000
 	cost=300//500
 	BuyClipSize=8
 	ItemName="Shotgun SN"

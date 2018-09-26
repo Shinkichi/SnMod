@@ -2,7 +2,7 @@ class KSGPickup extends KFMod.KSGPickup;
 
 defaultproperties
 {
-    Weight=5.000000//6.000000
+    Weight=6.000000
 	cost=600//1250
 	AmmoCost=30
 	BuyClipSize=12
