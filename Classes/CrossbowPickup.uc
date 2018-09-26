@@ -9,5 +9,5 @@ defaultproperties
 	ItemShortName="Crossbow SN"
 	InventoryType=Class'SnMod.Crossbow'
 	PickupMessage="You got the Xbow SN."
-	CorrespondingPerkIndex=4//2
+	CorrespondingPerkIndex=2
 }
