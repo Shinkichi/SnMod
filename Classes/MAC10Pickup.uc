@@ -5,7 +5,7 @@ defaultproperties
 	Weight=4.000000
 	cost=300//500
 	AmmoCost=10
-	BuyClipSize=30
+	BuyClipSize=32//30
 	ItemName="MAC-10 SN"
 	ItemShortName="MAC-10 SN"
 	InventoryType=Class'SnMod.MAC10MP'

@@ -76,6 +76,6 @@ defaultproperties
 {
 	DamageType=Class'SnMod.DamTypeMAC10MPInc'
 	DamageMin=15//25
-	DamageMax=25//35
+	DamageMax=20//35
 	AmmoClass=Class'SnMod.MAC10Ammo'
 }
